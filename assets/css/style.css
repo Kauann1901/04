@@ -1,0 +1,35 @@
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 18, 75);
+}
+.header{
+    display: flex;
+    width: 90vw;
+    color: aliceblue;
+}
+h2{
+    width: 30%;
+    font-size: 30px;
+}
+p{
+    width: 30%;
+    text-align: right;
+}
+.main input{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    
+}
